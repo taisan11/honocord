@@ -1,0 +1,12 @@
+{
+    "name": "@taisan11/honocord",
+    "version": "0.1.0",
+    "exports": "./src/index.ts",
+    "publish": {
+      "include": [
+        "README.md",
+        "src/**/*.ts",
+        "jsr.json"
+      ]
+    }
+  }
