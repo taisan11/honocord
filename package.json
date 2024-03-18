@@ -1,0 +1,19 @@
+{
+  "name": "honocord",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build":"bun run ./build.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.37.74",
+    "discord-interactions": "^3.4.0",
+    "hono": "^4.1.1"
+  }
+}
